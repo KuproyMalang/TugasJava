@@ -9,7 +9,7 @@ package CurrencyConverter;
  *
  * @author user
  */
-public interface converter {
+public interface buttonAction {
     public void convert();
     public void reset();
     public void exit();
