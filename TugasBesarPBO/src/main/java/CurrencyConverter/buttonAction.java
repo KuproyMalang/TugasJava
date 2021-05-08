@@ -13,5 +13,4 @@ public interface converter {
     public void convert();
     public void reset();
     public void exit();
-    public void show();
 }
