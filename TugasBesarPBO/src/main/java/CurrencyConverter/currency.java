@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author user
  */
-public class currency extends javax.swing.JFrame implements converter {
+public class currency extends javax.swing.JFrame implements buttonAction {
 
     /**
      * Creates new form currencyConverter
