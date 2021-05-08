@@ -50,6 +50,7 @@ public class Main {
         frame.setCnycad(0.19);
         
         frame.setVisible(true);
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(currency.EXIT_ON_CLOSE);
     }
     
