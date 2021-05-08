@@ -230,137 +230,140 @@ public class currency extends javax.swing.JFrame implements buttonAction {
         double hasil;
         double jumlah = Double.parseDouble(Amount_Box.getText());
         
-        if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("USD")){
+        if(Double.parseDouble(Amount_Box.getText())<0){
+            error();
+        }
+        else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * usdusd;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("EUR")){
+        else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * usdeur;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("GBP")){
+        else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * usdgbp;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("CAD")){
+        else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * usdcad;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("CNY")){
+        else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * usdcny;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
         
-        if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("EUR")){
+        else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * eureur;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("USD")){
+        else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * eurusd;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("GBP")){
+        else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * eurgbp;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("CAD")){
+        else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * eurcad;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("CNY")){
+        else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * eurcny;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
         
-        if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("GBP")){
+        else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * gbpgbp;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("USD")){
+        else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * gbpusd;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("EUR")){
+        else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * gbpeur;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("CAD")){
+        else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * gbpcad;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("CNY")){
+        else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * gbpcny;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
         
-        if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("CAD")){
+        else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * cadcad;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("USD")){
+        else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * cadusd;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("EUR")){
+        else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * cadeur;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("GBP")){
+        else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * cadgbp;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("CNY")){
+        else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * cadcny;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
         
-        if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("CNY")){
+        else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * cnycny;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("USD")){
+        else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * cnyusd;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("EUR")){
+        else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * cnyeur;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("GBP")){
+        else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * cnygbp;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
-        if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("CAD")){
+        else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * cnycad;
             String konversi = String.valueOf(hasil);
             JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
         }
     }
-    
+     
     @Override
     public void reset() {
         Amount_Box.setText(null);
@@ -372,14 +375,22 @@ public class currency extends javax.swing.JFrame implements buttonAction {
     public void exit(){
         System.exit(0);
     }
-
+    
+    public void error(){
+        JOptionPane.showMessageDialog(null, "Please Insert a Positive Amount");
+    }
+    
+    public void error(String errorName){
+        JOptionPane.showMessageDialog(null, errorName+" Please Insert an Amount in Numbers");
+    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
      * regenerated by the Form Editor.
      */
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         Full_Panel = new javax.swing.JPanel();
@@ -520,7 +531,7 @@ public class currency extends javax.swing.JFrame implements buttonAction {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Bottom_Panel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(Bottom_Panel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(Logo)
@@ -558,7 +569,7 @@ public class currency extends javax.swing.JFrame implements buttonAction {
                         .addComponent(Reset, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(53, 53, 53)
                         .addComponent(Exit, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(From_Box, 0, 535, Short.MAX_VALUE)
+                    .addComponent(From_Box, 0, 533, Short.MAX_VALUE)
                     .addGroup(Full_PanelLayout.createSequentialGroup()
                         .addGroup(Full_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(To)
@@ -607,39 +618,39 @@ public class currency extends javax.swing.JFrame implements buttonAction {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void Amount_BoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Amount_BoxActionPerformed
+    private void Amount_BoxActionPerformed(java.awt.event.ActionEvent evt) {                                           
         
-    }//GEN-LAST:event_Amount_BoxActionPerformed
+    }                                          
 
-    private void ExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExitActionPerformed
+    private void ExitActionPerformed(java.awt.event.ActionEvent evt) {                                     
         exit();
-    }//GEN-LAST:event_ExitActionPerformed
+    }                                    
 
-    private void ResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResetActionPerformed
+    private void ResetActionPerformed(java.awt.event.ActionEvent evt) {                                      
         reset();
-    }//GEN-LAST:event_ResetActionPerformed
+    }                                     
 
-    private void ConvertActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConvertActionPerformed
+    private void ConvertActionPerformed(java.awt.event.ActionEvent evt) {                                        
         double angka = 0;
-        
+         
         try{
             angka = Double.parseDouble(Amount_Box.getText());
         } catch (NumberFormatException e){
-            JOptionPane.showMessageDialog(null, "Please Input Amount in Numbers");
+            error(e.toString());
         }
         
         convert();
-    }//GEN-LAST:event_ConvertActionPerformed
+    }                                       
 
-    private void From_BoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_From_BoxActionPerformed
+    private void From_BoxActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
-    }//GEN-LAST:event_From_BoxActionPerformed
+    }                                        
 
-    private void Amount_BoxKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_Amount_BoxKeyTyped
+    private void Amount_BoxKeyTyped(java.awt.event.KeyEvent evt) {                                    
         
-    }//GEN-LAST:event_Amount_BoxKeyTyped
+    }                                   
 
     /**
      * @param args the command line arguments
@@ -676,9 +687,9 @@ public class currency extends javax.swing.JFrame implements buttonAction {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JLabel Amount;
-    private javax.swing.JTextField Amount_Box;
+    public javax.swing.JTextField Amount_Box;
     private javax.swing.JPanel Bottom_Panel;
     private javax.swing.JButton Convert;
     private javax.swing.JLabel Converter;
@@ -687,12 +698,12 @@ public class currency extends javax.swing.JFrame implements buttonAction {
     private javax.swing.JLabel Currency;
     private javax.swing.JButton Exit;
     private javax.swing.JLabel From;
-    private javax.swing.JComboBox<String> From_Box;
+    public javax.swing.JComboBox<String> From_Box;
     private javax.swing.JPanel Full_Panel;
     private javax.swing.JLabel Logo;
     private javax.swing.JButton Reset;
     private javax.swing.JLabel To;
-    private javax.swing.JComboBox<String> To_Box;
+    public javax.swing.JComboBox<String> To_Box;
     private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
