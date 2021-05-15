@@ -236,139 +236,139 @@ public class currency extends javax.swing.JFrame implements buttonAction {
         else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * usdusd;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * usdeur;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * usdgbp;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * usdcad;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("USD") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * usdcny;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         
         else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * eureur;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * eurusd;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * eurgbp;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * eurcad;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("EUR") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * eurcny;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         
         else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * gbpgbp;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * gbpusd;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * gbpeur;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * gbpcad;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("GBP") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * gbpcny;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         
         else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * cadcad;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * cadusd;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * cadeur;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * cadgbp;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("CAD") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * cadcny;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         
         else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("CNY")){
             hasil = jumlah * cnycny;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("USD")){
             hasil = jumlah * cnyusd;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("EUR")){
             hasil = jumlah * cnyeur;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("GBP")){
             hasil = jumlah * cnygbp;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
         else if(From_Box.getSelectedItem().equals("CNY") && To_Box.getSelectedItem().equals("CAD")){
             hasil = jumlah * cnycad;
             String konversi = String.valueOf(hasil);
-            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem());
+            JOptionPane.showMessageDialog(null, Amount_Box.getText()+" "+From_Box.getSelectedItem()+" = "+konversi+" "+To_Box.getSelectedItem(), "Conversion", JOptionPane.INFORMATION_MESSAGE);
         }
     }
      
     @Override
     public void reset() {
         Amount_Box.setText(null);
-        From_Box.setSelectedItem(0);
-        To_Box.setSelectedItem(0);
+        From_Box.setSelectedIndex(0);
+        To_Box.setSelectedIndex(0);
     }
     
     @Override
